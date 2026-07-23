@@ -1,8 +1,13 @@
 aid: astroforge
 name: AstroForge
-description: 'AstroForge is a company surfaced as a portfolio company of initialized-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'AstroForge is a commercial space startup founded in 2022 and based in Huntington Beach,
+  California, focused on asteroid mining and the in-space extraction and refining of platinum group
+  metals and other critical minerals. Backed by Initialized Capital and a Y Combinator alum, the company
+  designs low-cost, autonomous, replicable interplanetary spacecraft to prospect and mine near-Earth
+  asteroids, with its DeepSpace-2 mission targeting the first commercial rendezvous with a body outside
+  Earth''s gravity well. AstroForge does not currently publish a public developer API, SDK, or
+  documentation surface; this API Evangelist profile tracks the company as a frontier-tech lead and
+  will be enriched further if and when a developer program appears.'
 url: https://raw.githubusercontent.com/api-evangelist/astroforge/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,30 @@ x-backed-by:
 - initialized-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://framerusercontent.com/images/BWDk7FjQx2DO6Y4A5zuHP34k.png
 tags:
 - Company
 - Frontier Tech
+- Space
+- Asteroid Mining
+- Space Mining
+- Aerospace
+- Critical Minerals
+- Deep Space
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +47,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://astroforge.io/
+  url: https://www.astroforge.com/
+- type: Blog
+  url: https://www.astroforge.com/blog
+- type: Support
+  url: https://www.astroforge.com/contact-us
+- type: DomainSecurity
+  url: security/astroforge-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
